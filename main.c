@@ -58,7 +58,6 @@ int main()
             scanf("%s", &T[i].Prenom);
             printf("\nEntrez le matricule d'etudiant n%i: ", i+1);
             scanf("%s", &T[i].Matricule);
-            printf("%s", T[i].Matricule);
 
             strcpy(T[i].M1.Nom, modules[0].Nom);
             strcpy(T[i].M2.Nom, modules[2].Nom);
@@ -98,7 +97,5 @@ int main()
 
 
     }
-
-    printf("%s", ADMIS[0].Nom);
 
 }
